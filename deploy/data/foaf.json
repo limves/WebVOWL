@@ -1,0 +1,67 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based" ],
+    "iri" : "http://knowitive.com/ontologies/2016/9/invoice"
+  },
+  "metrics" : {
+    "classCount" : 2,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 1,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 1,
+    "nodeCount" : 2,
+    "axiomCount" : 9,
+    "individualCount" : 2
+  },
+  "class" : [ {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "CFDI"
+    },
+    "iri" : "http://knowitive.com/ontologies/2016/9/invoice#CFDI",
+    "instances" : 1,
+    "individuals" : [ {
+      "iri" : "00000000001",
+      "labels" : {
+        "IRI-based" : "UDDI_00000000001"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "Contribuyente"
+    },
+    "iri" : "http://knowitive.com/ontologies/2016/9/invoice#Contribuyente",
+    "instances" : 1,
+    "individuals" : [ {
+      "iri" : "Luis_Escobar",
+      "labels" : {
+        "IRI-based" : "Luis_Escobar"
+      },
+      "annotations" : { }
+    } ]
+  } ],
+  "property" : [ {
+    "id" : "property1",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "has"
+    },
+    "iri" : "http://knowitive.com/ontologies/2016/9/invoice#has",
+    "domain" : "class1",
+    "range" : "class2"
+  } ]
+}
